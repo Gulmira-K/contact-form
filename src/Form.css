@@ -1,0 +1,99 @@
+@media screen and (max-width: 800px) {
+  .name-input #name {
+    margin-bottom: 10px;
+    margin-right: 0;
+    float: left;
+    width: 71vw;
+  }
+  .name-input #surname {
+    margin-bottom: 10px;
+    margin-left: 0;
+    float: left;
+    width: 71vw;
+  }
+}
+
+.ContactForm {
+  padding: 55px 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./picture.jpg) center center no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 350px;
+}
+form {
+  margin: 0 30px;
+}
+input {
+  height: 25px;
+  padding: 15px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 1px solid #b7babb;
+  border-radius: 5px;
+  color: #868686;
+  font-size: 14px;
+}
+button {
+  text-align: center;
+  margin: 0 auto;
+  color: #fafafa;
+  border: none;
+  background: linear-gradient(to right, #f55f4b, #f96);
+  padding: 10px;
+  box-shadow: 0 3px 6px rgba(66, 66, 66, 0.25);
+  border-radius: 5vmin;
+  font-size: 1.8vmin;
+  font-family: proxima-nova, 'sans-serif';
+  font-weight: normal;
+  height: 35px;
+  width: 100px;
+  transition: 0.2s all ease-in-out;
+}
+
+button :hover {
+  cursor: pointer;
+  background: linear-gradient(to right, #f55f4b, #f55f4b);
+  transition: 0.2s all ease-in-out;
+}
+
+.content-container {
+  display: block;
+  width: 75vw;
+  margin: 0 auto;
+}
+.name-input {
+  display: inline-block;
+  width: 74vw;
+}
+.send-btn {
+  display: flex;
+  justify-content: center;
+}
+
+#email,
+#message {
+  width: 71vw;
+  margin-bottom: 10px;
+}
+#name {
+  margin-bottom: 10px;
+  margin-right: 0.5vw;
+  width: 33.5vw;
+}
+#surname {
+  margin-bottom: 10px;
+  margin-left: 0.5vw;
+  width: 33.5vw;
+}
+#message {
+  padding: 15px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 1px solid #b7babb;
+  border-radius: 5px;
+  color: #868686;
+  font-size: 14px;
+}
