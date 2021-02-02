@@ -17,6 +17,8 @@ export class ContactForm extends Component{
         this.handleSubmit = this.handleSubmit.bind(this);
     }
 
+    
+
     change(e) {
        this.setState({[e.target.name] : e.target.value
         })
